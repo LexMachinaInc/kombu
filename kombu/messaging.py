@@ -140,7 +140,7 @@ class Producer(object):
             supported by :meth:`~kombu.Connection.ensure`.
         :keyword expiration: A TTL in seconds can be specified per message.
             Default is no expiration.
-        :keyword \*\*properties: Additional message properties, see AMQP spec.
+        :keyword \\*\\*properties: Additional message properties, see AMQP spec.
 
         """
         headers = {} if headers is None else headers

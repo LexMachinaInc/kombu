@@ -52,7 +52,7 @@ class LaxBoundedSemaphore(object):
         the resource is available.
 
         :param callback: The callback to apply.
-        :param \*partial_args: partial arguments to callback.
+        :param \\*partial_args: partial arguments to callback.
 
         """
         value = self.value
