@@ -16,7 +16,7 @@ from contextlib import contextmanager
 from time import time
 
 from amqp import promise
-from anyjson import loads, dumps
+from json import loads, dumps
 
 from kombu.exceptions import InconsistencyError, VersionMismatch
 from kombu.five import Empty, values, string_t

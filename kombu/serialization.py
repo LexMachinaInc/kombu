@@ -307,7 +307,7 @@ def raw_encode(data):
 
 def register_json():
     """Register a encoder/decoder for JSON serialization."""
-    from anyjson import loads as json_loads, dumps as json_dumps
+    from json import loads as json_loads, dumps as json_dumps
 
     def _loads(obj):
         if isinstance(obj, bytes_t):

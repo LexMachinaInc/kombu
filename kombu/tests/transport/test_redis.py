@@ -3,7 +3,7 @@ from __future__ import absolute_import
 import socket
 import types
 
-from anyjson import dumps, loads
+from json import dumps, loads
 from collections import defaultdict
 from contextlib import contextmanager
 from itertools import count

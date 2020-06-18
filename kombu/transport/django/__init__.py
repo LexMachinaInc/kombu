@@ -1,7 +1,7 @@
 """Kombu transport using the Django database as a message store."""
 from __future__ import absolute_import
 
-from anyjson import loads, dumps
+from json import loads, dumps
 
 from django.conf import settings
 from django.core import exceptions as errors

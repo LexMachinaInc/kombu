@@ -43,7 +43,7 @@ import collections
 import socket
 import string
 
-from anyjson import loads, dumps
+from json import loads, dumps
 
 import boto
 from boto import exception

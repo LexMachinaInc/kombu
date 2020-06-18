@@ -7,7 +7,7 @@ Transport using the file system as the message store.
 """
 from __future__ import absolute_import
 
-from anyjson import loads, dumps
+from json import loads, dumps
 
 import os
 import shutil

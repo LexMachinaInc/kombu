@@ -13,7 +13,7 @@ from __future__ import absolute_import
 import pymongo
 
 from pymongo import errors
-from anyjson import loads, dumps
+from json import loads, dumps
 from pymongo import MongoClient, uri_parser
 
 from kombu.five import Empty

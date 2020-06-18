@@ -10,7 +10,7 @@ from __future__ import absolute_import
 import socket
 import string
 
-from anyjson import loads, dumps
+from json import loads, dumps
 
 import os
 
